@@ -1,4 +1,9 @@
 using Persistence;
+using Microsoft.AspNetCore.Mvc;
+using Domain;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace API.Controllers
 {
